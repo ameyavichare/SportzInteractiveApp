@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		756C8696E610AA1717328FEC /* Pods_SportzInteractiveApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82214813BA8E410CE44B701F /* Pods_SportzInteractiveApp.framework */; };
+		E4059CAB260ED59B00574B82 /* PlayerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4059CAA260ED59B00574B82 /* PlayerListViewModel.swift */; };
+		E4CA515C260F0C36005E3B32 /* PlayerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CA515B260F0C36005E3B32 /* PlayerListViewController.swift */; };
 		E4D69BB92608A16900F9B4EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D69BB82608A16900F9B4EA /* AppDelegate.swift */; };
 		E4D69BBB2608A16900F9B4EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D69BBA2608A16900F9B4EA /* SceneDelegate.swift */; };
-		E4D69BBD2608A16900F9B4EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D69BBC2608A16900F9B4EA /* ViewController.swift */; };
-		E4D69BC02608A16900F9B4EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D69BBE2608A16900F9B4EA /* Main.storyboard */; };
 		E4D69BC22608A16A00F9B4EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D69BC12608A16A00F9B4EA /* Assets.xcassets */; };
 		E4D69BC52608A16A00F9B4EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D69BC32608A16A00F9B4EA /* LaunchScreen.storyboard */; };
+		E4D69BDC2608A2B300F9B4EA /* MatchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D69BDB2608A2B300F9B4EA /* MatchDetailViewController.swift */; };
+		E4D69BE02608A3B100F9B4EA /* MatchDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D69BDF2608A3B100F9B4EA /* MatchDetailViewModel.swift */; };
+		E4D69BE42608AB1700F9B4EA /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D69BE32608AB1700F9B4EA /* WebService.swift */; };
+		E4D69BF02608AE8400F9B4EA /* MatchDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D69BEF2608AE8400F9B4EA /* MatchDetailResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82214813BA8E410CE44B701F /* Pods_SportzInteractiveApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportzInteractiveApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D349C412B83C7FE13049DE2 /* Pods-SportzInteractiveApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportzInteractiveApp.debug.xcconfig"; path = "Target Support Files/Pods-SportzInteractiveApp/Pods-SportzInteractiveApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B6AFDD1DCFC29DD5D4AC4168 /* Pods-SportzInteractiveApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportzInteractiveApp.release.xcconfig"; path = "Target Support Files/Pods-SportzInteractiveApp/Pods-SportzInteractiveApp.release.xcconfig"; sourceTree = "<group>"; };
+		E4059CAA260ED59B00574B82 /* PlayerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListViewModel.swift; sourceTree = "<group>"; };
+		E4CA515B260F0C36005E3B32 /* PlayerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListViewController.swift; sourceTree = "<group>"; };
 		E4D69BB52608A16900F9B4EA /* SportzInteractiveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportzInteractiveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D69BB82608A16900F9B4EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4D69BBA2608A16900F9B4EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E4D69BBC2608A16900F9B4EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E4D69BBF2608A16900F9B4EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4D69BC12608A16A00F9B4EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4D69BC42608A16A00F9B4EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4D69BC62608A16A00F9B4EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4D69BDB2608A2B300F9B4EA /* MatchDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailViewController.swift; sourceTree = "<group>"; };
+		E4D69BDF2608A3B100F9B4EA /* MatchDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailViewModel.swift; sourceTree = "<group>"; };
+		E4D69BE32608AB1700F9B4EA /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		E4D69BEF2608AE8400F9B4EA /* MatchDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756C8696E610AA1717328FEC /* Pods_SportzInteractiveApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1186B6F41022794994BDB5CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D349C412B83C7FE13049DE2 /* Pods-SportzInteractiveApp.debug.xcconfig */,
+				B6AFDD1DCFC29DD5D4AC4168 /* Pods-SportzInteractiveApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		38A984A61755C71227F79FE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82214813BA8E410CE44B701F /* Pods_SportzInteractiveApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E4D69BAC2608A16900F9B4EA = {
 			isa = PBXGroup;
 			children = (
 				E4D69BB72608A16900F9B4EA /* SportzInteractiveApp */,
 				E4D69BB62608A16900F9B4EA /* Products */,
+				1186B6F41022794994BDB5CF /* Pods */,
+				38A984A61755C71227F79FE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,115 @@
 		E4D69BB72608A16900F9B4EA /* SportzInteractiveApp */ = {
 			isa = PBXGroup;
 			children = (
-				E4D69BB82608A16900F9B4EA /* AppDelegate.swift */,
-				E4D69BBA2608A16900F9B4EA /* SceneDelegate.swift */,
-				E4D69BBC2608A16900F9B4EA /* ViewController.swift */,
-				E4D69BBE2608A16900F9B4EA /* Main.storyboard */,
-				E4D69BC12608A16A00F9B4EA /* Assets.xcassets */,
-				E4D69BC32608A16A00F9B4EA /* LaunchScreen.storyboard */,
+				E4D69BE22608AB0800F9B4EA /* WebServices */,
+				E4D69BD12608A1FB00F9B4EA /* Modules */,
+				E4D69BD02608A1ED00F9B4EA /* Storyboards */,
+				E4D69BD22608A20200F9B4EA /* Resources */,
+				E4D69BCE2608A1B000F9B4EA /* SceneDelegate */,
+				E4D69BCD2608A1A400F9B4EA /* AppDelegate */,
 				E4D69BC62608A16A00F9B4EA /* Info.plist */,
 			);
 			path = SportzInteractiveApp;
+			sourceTree = "<group>";
+		};
+		E4D69BCD2608A1A400F9B4EA /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E4D69BB82608A16900F9B4EA /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E4D69BCE2608A1B000F9B4EA /* SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E4D69BBA2608A16900F9B4EA /* SceneDelegate.swift */,
+			);
+			path = SceneDelegate;
+			sourceTree = "<group>";
+		};
+		E4D69BD02608A1ED00F9B4EA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E4D69BC32608A16A00F9B4EA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E4D69BD12608A1FB00F9B4EA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E4D69BD72608A24400F9B4EA /* MatchDetail */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E4D69BD22608A20200F9B4EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E4D69BC12608A16A00F9B4EA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E4D69BD42608A22A00F9B4EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4D69BDA2608A28800F9B4EA /* Cells */,
+				E4D69BD92608A28000F9B4EA /* ViewControllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4D69BD52608A23400F9B4EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4D69BEF2608AE8400F9B4EA /* MatchDetailResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E4D69BD62608A23B00F9B4EA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E4D69BDF2608A3B100F9B4EA /* MatchDetailViewModel.swift */,
+				E4059CAA260ED59B00574B82 /* PlayerListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E4D69BD72608A24400F9B4EA /* MatchDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E4D69BD42608A22A00F9B4EA /* Views */,
+				E4D69BD62608A23B00F9B4EA /* ViewModels */,
+				E4D69BD52608A23400F9B4EA /* Models */,
+			);
+			path = MatchDetail;
+			sourceTree = "<group>";
+		};
+		E4D69BD92608A28000F9B4EA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4D69BDB2608A2B300F9B4EA /* MatchDetailViewController.swift */,
+				E4CA515B260F0C36005E3B32 /* PlayerListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E4D69BDA2608A28800F9B4EA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E4D69BE22608AB0800F9B4EA /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				E4D69BE32608AB1700F9B4EA /* WebService.swift */,
+			);
+			path = WebServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4D69BC92608A16A00F9B4EA /* Build configuration list for PBXNativeTarget "SportzInteractiveApp" */;
 			buildPhases = (
+				98ED896BD148BB8F80355DB5 /* [CP] Check Pods Manifest.lock */,
 				E4D69BB12608A16900F9B4EA /* Sources */,
 				E4D69BB22608A16900F9B4EA /* Frameworks */,
 				E4D69BB32608A16900F9B4EA /* Resources */,
+				02F8B8A8A65E06F76048B491 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +260,65 @@
 			files = (
 				E4D69BC52608A16A00F9B4EA /* LaunchScreen.storyboard in Resources */,
 				E4D69BC22608A16A00F9B4EA /* Assets.xcassets in Resources */,
-				E4D69BC02608A16900F9B4EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02F8B8A8A65E06F76048B491 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportzInteractiveApp/Pods-SportzInteractiveApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportzInteractiveApp/Pods-SportzInteractiveApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SportzInteractiveApp/Pods-SportzInteractiveApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98ED896BD148BB8F80355DB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SportzInteractiveApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E4D69BB12608A16900F9B4EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4D69BBD2608A16900F9B4EA /* ViewController.swift in Sources */,
+				E4D69BDC2608A2B300F9B4EA /* MatchDetailViewController.swift in Sources */,
+				E4CA515C260F0C36005E3B32 /* PlayerListViewController.swift in Sources */,
+				E4D69BE02608A3B100F9B4EA /* MatchDetailViewModel.swift in Sources */,
 				E4D69BB92608A16900F9B4EA /* AppDelegate.swift in Sources */,
+				E4D69BF02608AE8400F9B4EA /* MatchDetailResponse.swift in Sources */,
+				E4059CAB260ED59B00574B82 /* PlayerListViewModel.swift in Sources */,
+				E4D69BE42608AB1700F9B4EA /* WebService.swift in Sources */,
 				E4D69BBB2608A16900F9B4EA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +326,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E4D69BBE2608A16900F9B4EA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4D69BBF2608A16900F9B4EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E4D69BC32608A16A00F9B4EA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +455,14 @@
 		};
 		E4D69BCA2608A16A00F9B4EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D349C412B83C7FE13049DE2 /* Pods-SportzInteractiveApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC959F8T7E;
 				INFOPLIST_FILE = SportzInteractiveApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +476,14 @@
 		};
 		E4D69BCB2608A16A00F9B4EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AFDD1DCFC29DD5D4AC4168 /* Pods-SportzInteractiveApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC959F8T7E;
 				INFOPLIST_FILE = SportzInteractiveApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
